@@ -1,4 +1,4 @@
-uzzbot (telegram-bot)
+SPARKTEMS (telegram-bot)
 ============
 
 [![Donate button](https://img.shields.io/badge/nepal-donate-yellow.svg)](http://www.nrcs.org/donate-nrcs "Donate to Nepal Red Cross Society")
@@ -13,15 +13,13 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```
 
 ```bash
-# After those dependencies, lets install the bot
-cd $HOME
-git clone https://github.com/uziins/uzzbot.git
+#git clone https://github.com/SPARKTEA/SPARKTEMS.git
 cd uzzbot
 ./launch.sh install
 ./launch.sh # Will ask you for a phone number & confirmation code.
 ```
 
-Enable more [`plugins`](https://github.com/uziins/uzzbot/tree/master/plugins)
+Enable more [`plugins`](https://github.com/SPARKTEA/SPARKTEMS/tree/master/plugins)
 -------------
 See the plugins list with `!plugins` command.
 
@@ -38,15 +36,15 @@ If your Linux/Unix comes with [upstart](http://upstart.ubuntu.com/) you can run 
 ```bash
 $ sed -i "s/yourusername/$(whoami)/g" etc/uzzbot.conf
 $ sed -i "s_telegrambotpath_$(pwd)_g" etc/uzzbot.conf
-$ sudo cp etc/uzzbot.conf /etc/init/
-$ sudo start uzzbot # To start it
-$ sudo stop uzzbot # To stop it
+$ sudo cp etc/sparktems.conf /etc/init/
+$ sudo start sparktems # To start it
+$ sudo stop spaektems # To stop it
 ```
 
 
 ------------
-Bot: [uzzbot](https://telegram.me/uzzbot)
+Bot: [uzzbot](https://telegram.me/sparkteambot)
 
-[Join](https://telegram.me/joinchat/ALJ3iwFAhOCh4WNUHAyzXQ) on the TelegramBot Discussion Group.
+[Join](https://telegram.me/joinchat/AHKj3D6mxz-B9mQyQ4MxjA) on the TelegramBot Discussion Group.
 or
-[Join](https://telegram.me/joinchat/045d20af01e2c643263fec0188be277b) for uzzbot support.
+[Join](https://telegram.me/llsparkteamall) for sparkbot support.
