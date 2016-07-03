@@ -15,7 +15,7 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```bash
 #
 git clone https://github.com/SPARKTEA/SPARKTEMS.git
-cd uzzbot
+cd SPARKTEMS
 ./launch.sh install
 ./launch.sh # Will ask you for a phone number & confirmation code.
 ```
